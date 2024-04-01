@@ -8,10 +8,8 @@
 
 LLM-Assisted Light: Augmenting Traffic Signal Control with Large Language Model in Complex Urban Scenarios
 
-[Scenario_1](https://github.com/Traffic-Alpha/LLM-Assisted-Light/assets/21176109/e7063493-30a7-4f12-95b5-6b0661e48f19)
+[Scenario_1](https://github.com/Traffic-Alpha/LLM-Assisted-Light/assets/21176109/3075d18c-a6eb-4b5c-bdc9-f79936e13dc2)
 <p align="center">Examples of LA-Lights Utilizing Tools to Control Traffic Signals <strong>(Normal Scenario)</strong></p>
-
-
 
 [Scenario_2](https://github.com/Traffic-Alpha/LLM-Assisted-Light/assets/21176109/9062f888-314d-43f8-b668-9ad46471504c)
 <p align="center">Examples of LA-Lights Utilizing Tools to Control Traffic Signals <strong>(Emergency Vehicle (EMV) Scenario)</strong></p>
@@ -72,6 +70,19 @@ Due to the video length limit, we only captured part of the first decision-makin
 - Action 1: Obtaining the intersection layout, the number of lanes, and lane functions (turn left, go straight, or turn right) for each edge.
 - Action 3: Obtaining the occupancy of each edge. The -E3 straight line has a higher occupancy rate, corresponding to the simulation. At this point, LA-Light can use tools to obtain real-time road network information.
 - Final Decision and Explanation: Based on a series of results, LA-Light provides the final decision and explanation.
+
+## Citation
+
+If you find this work useful, please cite our papers:
+
+```bibtex
+@article{wang2024llm,
+  title={LLM-Assisted Light: Leveraging Large Language Model Capabilities for Human-Mimetic Traffic Signal Control in Complex Urban Environments},
+  author={Wang, Maonan and Pang, Aoyu and Kan, Yuheng and Pun, Man-On and Chen, Chung Shue and Huang, Bo},
+  journal={arXiv preprint arXiv:2403.08337},
+  year={2024}
+}
+```
 
 ## Acknowledgments
 
