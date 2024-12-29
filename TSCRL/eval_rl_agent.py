@@ -1,8 +1,8 @@
-'''
+"""
 @Author: WANG Maonan
 @Date: 2023-09-08 18:57:35
 @Description: 使用训练好的 RL Agent 进行测试
-Command: 
+Command:
 ---> Choose Next Phase <---
 @ Scenario-1
 -> python eval_rl_agent.py --tls_action_type 'choose_next_phase' --env_name '3way' --phase_num 3
@@ -25,7 +25,7 @@ Command:
 -> python eval_rl_agent.py --tls_action_type 'next_or_not' --env_name '3way' --phase_num 3 --detector_break 'E0--s'
 -> python eval_rl_agent.py --tls_action_type 'next_or_not' --env_name '4way' --phase_num 4 --detector_break 'E2--s'
 @LastEditTime: 2023-12-02 23:01:23
-'''
+"""
 import torch
 import argparse
 from loguru import logger

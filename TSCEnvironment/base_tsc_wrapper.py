@@ -6,6 +6,8 @@
 + reward: 路口总的 waiting time
 @LastEditTime: 2024-01-05 20:41:34
 '''
+import time
+
 import numpy as np
 import gymnasium as gym
 
@@ -226,7 +228,8 @@ class BaseTSCEnvWrapper(gym.Wrapper):
         phase_index = self.current_tls_state['this_phase_index']
         return f'Phase-{phase_index}'
     
-    def get_intersection_layout(self) -> Dict[str, str|float|int]:
+    # def get_intersection_layout(self) -> Dict[str, str|float|int]:
+    def get_intersection_layout(self) -> Dict[str, str]:
         """路口的静态路网结构信息
         """
         return self.llm_static_information["movement_infos"]
